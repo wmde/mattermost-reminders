@@ -1,7 +1,9 @@
 #!/bin/bash
 
+SCRIPT_DIR=$(dirname "$0")
+
 set -o allexport
-source mattermost.env
+source $SCRIPT_DIR/mattermost.env
 set +o allexport
 
 CHANNEL=$1
