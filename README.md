@@ -1,4 +1,4 @@
-A very rudimentarycript automating sending recurring mattermost messages
+A very rudimentary script automating sending recurring mattermost messages
 
 Set up:
 Create a file named `mattermost.env` configuring the Mattermost webhook to be used by defining `MATTERMOST_WEBHOOK_URL` variable. You can use `mattermost.env.template` provided in this repository.
